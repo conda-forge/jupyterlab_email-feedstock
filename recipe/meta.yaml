@@ -22,7 +22,7 @@ requirements:
     - python >=3.7
 
 outputs:
-  - name: jupyterlab-email
+  - name: jupyterlab_email
     requirements:
       host:
         - python >=3.7
@@ -39,19 +39,19 @@ outputs:
         - jupyterlab >=3.2.0
         - pandas >=0.23.4
       run_constrained:
-        - {{ pin_subpackage("jupyterlab_email", max_pin="x.x.x") }}
+        - {{ pin_subpackage("jupyterlab-email", max_pin="x.x.x") }}
 
     test:
       imports:
         - jupyterlab_email
 
-  - name: jupyterlab_email
+  - name: jupyterlab-email
     requirements:
       host:
         - python >=3.7
       run:
         - python >=3.7
-        - {{ pin_subpackage("jupyterlab-email", max_pin="x.x.x") }}
+        - {{ pin_subpackage("jupyterlab_email", max_pin="x.x.x") }}
 
     test:
       imports:
