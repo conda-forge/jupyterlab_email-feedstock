@@ -18,11 +18,86 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table>
+    
+  <tr>
+    <td>Azure</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main">
-      </a>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux_64_nodejs14</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=linux&configuration=linux_64_nodejs14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=linux&configuration=linux_64_nodejs16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_64_nodejs17</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=linux&configuration=linux_64_nodejs17" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_nodejs14</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_nodejs17</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs17" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_nodejs14</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_nodejs17</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs17" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
     </td>
   </tr>
 </table>
@@ -32,6 +107,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-jupyterlab--email-green.svg)](https://anaconda.org/conda-forge/jupyterlab-email) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyterlab-email.svg)](https://anaconda.org/conda-forge/jupyterlab-email) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyterlab-email.svg)](https://anaconda.org/conda-forge/jupyterlab-email) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyterlab-email.svg)](https://anaconda.org/conda-forge/jupyterlab-email) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-jupyterlab_email-green.svg)](https://anaconda.org/conda-forge/jupyterlab_email) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/jupyterlab_email.svg)](https://anaconda.org/conda-forge/jupyterlab_email) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/jupyterlab_email.svg)](https://anaconda.org/conda-forge/jupyterlab_email) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/jupyterlab_email.svg)](https://anaconda.org/conda-forge/jupyterlab_email) |
 
 Installing jupyterlab_email
@@ -44,41 +120,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `jupyterlab_email` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `jupyterlab-email, jupyterlab_email` can be installed with `conda`:
 
 ```
-conda install jupyterlab_email
-```
-
-or with `mamba`:
-
-```
-mamba install jupyterlab_email
-```
-
-It is possible to list all of the versions of `jupyterlab_email` available on your platform with `conda`:
-
-```
-conda search jupyterlab_email --channel conda-forge
+conda install jupyterlab-email jupyterlab_email
 ```
 
 or with `mamba`:
 
 ```
-mamba search jupyterlab_email --channel conda-forge
+mamba install jupyterlab-email jupyterlab_email
+```
+
+It is possible to list all of the versions of `jupyterlab-email` available on your platform with `conda`:
+
+```
+conda search jupyterlab-email --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search jupyterlab-email --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search jupyterlab_email --channel conda-forge
+mamba repoquery search jupyterlab-email --channel conda-forge
 
-# List packages depending on `jupyterlab_email`:
-mamba repoquery whoneeds jupyterlab_email --channel conda-forge
+# List packages depending on `jupyterlab-email`:
+mamba repoquery whoneeds jupyterlab-email --channel conda-forge
 
-# List dependencies of `jupyterlab_email`:
-mamba repoquery depends jupyterlab_email --channel conda-forge
+# List dependencies of `jupyterlab-email`:
+mamba repoquery depends jupyterlab-email --channel conda-forge
 ```
 
 
