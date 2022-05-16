@@ -10,7 +10,7 @@ source:
   sha256: 112f3f481058f40c4656051e5e77b1963e8cd131db0366b403c6cfcb6e14f893
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -18,21 +18,44 @@ requirements:
   host:
     - python >=3.7
     - pip
-    - nodejs
-    - yarn
-    - jupyter-packaging
-    - jupyterlab >=3.2.0
   run:
-    - python >=3.7, <=3.9
-    - beautifulsoup4 >=4.9.1
-    - emails >=0.6
-    - ipython
-    - jupyterlab >=3.2.0
-    - pandas >=0.23.4
+    - python >=3.7
 
-test:
-  imports:
-    - jupyterlab_email
+outputs:
+  - name: jupyterlab_email
+    requirements:
+      host:
+        - python >=3.7
+        - pip
+        - nodejs
+        - yarn
+        - jupyter-packaging
+        - jupyterlab >=3.2.0
+      run:
+        - python >=3.7
+        - beautifulsoup4 >=4.9.1
+        - emails >=0.6
+        - ipython
+        - jupyterlab >=3.2.0
+        - pandas >=0.23.4
+      run_constrained:
+        - {{ pin_subpackage("jupyterlab-email", max_pin="x.x.x") }}
+
+    test:
+      imports:
+        - jupyterlab_email
+
+  - name: jupyterlab-email
+    requirements:
+      host:
+        - python >=3.7
+      run:
+        - python >=3.7
+        - {{ pin_subpackage("jupyterlab_email", max_pin="x.x.x") }}
+
+    test:
+      imports:
+        - jupyterlab_email
 
 about:
   home: http://github.com/timkpaine/jupyterlab_email
