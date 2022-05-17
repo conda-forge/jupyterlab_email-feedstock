@@ -53,45 +53,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_nodejs14</td>
+              <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs14" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=osx&configuration=osx_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_nodejs16</td>
+              <td>win_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs16" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_nodejs17</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=osx&configuration=osx_64_nodejs17" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_nodejs14</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs14" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_nodejs16</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs16" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_nodejs17</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15983&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=win&configuration=win_64_nodejs17" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/jupyterlab_email-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
                 </a>
               </td>
             </tr>
