@@ -18,46 +18,35 @@ requirements:
   host:
     - python >=3.7
     - pip
+    - nodejs
+    - yarn
+    - hatchling >=1.3.1
+    - hatch-jupyter-builder
+    - jupyterlab >=4,<5
   run:
     - python >=3.7
+    - jupyterlab >=4,<5
+    - beautifulsoup4 >=4.9.1
+    - emails >=0.6
+    - ipython >=7.2.0
+    - pandas >=0.23.4
+    - python-magic >=0.4.15
+
+test:
+  imports:
+    - jupyterlab_email
 
 outputs:
   - name: jupyterlab_email
-    requirements:
-      host:
-        - python >=3.7
-        - pip
-        - nodejs
-        - yarn
-        - jupyter-packaging
-        - jupyterlab >=3.2.0
-      run:
-        - python >=3.7
-        - beautifulsoup4 >=4.9.1
-        - emails >=0.6
-        - ipython
-        - jupyterlab >=3.2.0
-        - pandas >=0.23.4
-      run_constrained:
-        - {{ pin_subpackage("jupyterlab-email", max_pin="x.x.x") }}
-
-    test:
-      imports:
-        - jupyterlab_email
-
   - name: jupyterlab-email
     build:
       noarch: python
     requirements:
       host:
-        - python >=3.7
+        - python
       run:
-        - python >=3.7
-        - {{ pin_subpackage("jupyterlab_email", max_pin="x.x.x") }}
-
-    test:
-      imports:
-        - jupyterlab_email
+        - python
+        - {{ pin_subpackage("jupyterlab_email", exact=True) }}
 
 about:
   home: http://github.com/timkpaine/jupyterlab_email
@@ -65,9 +54,7 @@ about:
   license_family: Apache
   license_file: LICENSE
   summary: Sending emails from JupyterLab
-
-  description: |
-    Sending emails from JupyterLab
+  description: Sending emails from JupyterLab
   dev_url: https://github.com/timkpaine/jupyterlab_email
 
 extra:
