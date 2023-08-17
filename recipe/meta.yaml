@@ -1,5 +1,5 @@
 {% set name = "jupyterlab_email" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 44a791759f4089e01a2b06f9c9ef5b3e008b6b6e12bf9584b49cc081602dec0f
+  sha256: 910faac580cbb5d5c912bfe87f4cfb663813efd3d68e57b676393e1f6cf16d32
 
 build:
   number: 0
