@@ -13,7 +13,6 @@ Development: https://github.com/timkpaine/jupyterlab_email
 
 Sending emails from JupyterLab
 
-
 Current build status
 ====================
 
