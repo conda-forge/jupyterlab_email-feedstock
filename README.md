@@ -1,11 +1,11 @@
-About jupyterlab_email
-======================
+About jupyterlab_email-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab_email-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/timkpaine/jupyterlab_email
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/jupyterlab_email-feedstock/blob/main/LICENSE.txt)
 
 Summary: Sending emails from JupyterLab
 
