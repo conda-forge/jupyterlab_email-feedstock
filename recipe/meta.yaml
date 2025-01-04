@@ -6,17 +6,17 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 910faac580cbb5d5c912bfe87f4cfb663813efd3d68e57b676393e1f6cf16d32
 
 build:
-  number: 2
+  number: 3
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
     - nodejs
     - yarn
@@ -24,7 +24,7 @@ requirements:
     - hatch-jupyter-builder
     - jupyterlab >=4,<5
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - jupyterlab >=4,<5
     - beautifulsoup4 >=4.9.1
     - emails >=0.6
@@ -33,6 +33,8 @@ requirements:
     - python-magic >=0.4.15
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - jupyterlab_email
 
@@ -43,9 +45,9 @@ outputs:
       noarch: python
     requirements:
       host:
-        - python
+        - python {{ python_min }}
       run:
-        - python
+        - python >={{ python_min }}
         - {{ pin_subpackage("jupyterlab_email", exact=True) }}
 
 about:
